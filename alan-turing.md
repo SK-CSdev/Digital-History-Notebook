@@ -1,1 +1,1 @@
-
+Back in World War 2, he created the Turing machine. This was a machine that could simulate any computational process. It was used in helping crack the German Enigma code. He also made the Automatic Computing Engine which was a computer with a stored program. This shaped hardware and software as we know it.
