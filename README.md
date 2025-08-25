@@ -2,6 +2,8 @@
 Digital History Notebook: Computer Science Pioneers
 Welcome to your first project for the "History of Technology" class. Your assignment is to create a digital notebook to document key figures and events in the history of computer science. This notebook will be version-controlled, allowing you to track your work and manage your revisions.
 Your final submission will be a public GitHub repository with a complete digital notebook that follows all of the steps below.
+
+
 Assignment 1: Setting Up Your Notebook
 Your first task is to set up your digital notebook's central repository.
 Instructions:
@@ -11,12 +13,14 @@ After creating the repository, clone it to your local computer. Open the README.
 Once the content is in the file, you will need to push it back to GitHub.
 Report Status (These questions need to be answered for part of your grade):
 1.1: What command did you use to bring the repository to your local machine?
-Answer:
+Answer: git clone
 1.2: What was your first commit message to push this file to GitHub?
-Answer:
+Answer: Added assignment breifing to README.md
+
+
 Assignment 2: The Founding Visionaries
 Now, let's begin documenting the pioneers of our field. You will create files for two key figures.
-Instructions:
+Instructions: 
 On your local machine, create a new file named ada-lovelace.md.
 In this file, research and write a short paragraph about her contributions to early computing. (Cite those sources!)
 Create a second new file named alan-turing.md.
@@ -25,11 +29,13 @@ In this README.md file, add two hyperlinks below to your new files. The links mu
 Use git add . to stage both new files.
 Use git commit -m "Added pioneers Ada and Alan" to save these changes to your local notebook.
 Finally, use git push to publish your work to GitHub.
-Report Status:
+Report Status: 
 2.1: What two file names did you create?
-Answer:
+Answer: ada-lovelace.md and alan-turing.md
 2.2: What was your commit message?
-Answer:
+Answer: Added pioneers Ada and Alan
+
+
 Assignment 3: A Timeline of the Internet
 To celebrate the interconnected world of computing, you will create a timeline of key events in the internet's history. You will do this by editing your README.md file directly on GitHub.
 Instructions:
@@ -42,7 +48,9 @@ Return to your local machine's terminal.
 Use git pull to retrieve the timeline you created from your remote repository.
 Report Status:
 3.1: What command did you use to retrieve the new information from GitHub?
-Answer:
+Answer: git fetch
+
+
 Assignment 4: The Modern Era
 Now, let's add two more influential figures who shaped the modern era of computing.
 Instructions:
@@ -54,12 +62,14 @@ Use git commit -m "Added modern innovators" to save your work.
 Use git push to publish your changes.
 Report Status:
 4.1: What command did you use to save your changes to your local notebook?
-Answer:
+Answer: git add .
 4.2: What command did you use to publish your changes to the remote repository?
-Answer:
+Answer: git commit -m
+
+
 Assignment 5: Peer Review
 Your classmates are now reviewing your work. A peer has left a suggestion for one of your files.
-Instructions:
+Instructions: 
 Simulate a peer's action: go to your Digital-History-Notebook repository on GitHub.
 Find and edit the steve-jobs.md file directly.
 Add the following line to the end of the file: "Peer review: Could you add more details about the first Macintosh computer?"
@@ -71,10 +81,12 @@ Report Status:
 5.1: What did git status tell you after you ran git fetch?
 Answer:
 5.2: What command did you use to merge your peer's changes into your local notebook?
-Answer:
+Answer: git merge
+
+
 Assignment 6: The Web's Inventor
 With the internet's timeline now in your notebook, let's document one of its key figures.
-Instructions:
+Instructions: 
 On your local machine, create a new file named tim-berners-lee.md.
 In this file, research and write a short paragraph about his role in creating the World Wide Web.
 In this README.md file, add a hyperlink to this new file. The link should be named "Tim Berners-Lee".
@@ -83,12 +95,14 @@ Use git commit -m "Added Tim Berners-Lee" to save these changes.
 Use git push to publish this final piece of research.
 Report Status:
 6.1: What was your commit message for this assignment?
-Answer:
+Answer: Added Tim Berners-Lee
 6.2: What command did you use to publish your work?
-Answer:
+Answer: git push
+
+
 Assignment 7: Final Edits
 As a final step, you realize your notebook could use a concluding thought. You will add this directly on GitHub.
-Instructions:
+Instructions: 
 Go to your Digital-History-Notebook repository on GitHub.
 Edit the README.md file directly.
 At the very end of the file, add a new section titled Final Thoughts.
@@ -97,7 +111,7 @@ Commit this change directly on GitHub with the message: "Final thoughts on proje
 Return to your local machine's terminal and use git pull to get your concluding thoughts.
 Report Status:
 7.1: What command did you use to retrieve your final thoughts from GitHub?
-Answer:
+Answer: git pull
 High-Level Challenge: The Editing Mistake
 You were working on a file for an extra credit assignment but made a mistake. You committed the error to your local history, but you realize your mistake before pushing. You need to completely erase the commit so there is no record of the error.
 Instructions:
@@ -108,6 +122,8 @@ Do not push this commit.
 Now, find a way to undo the last commit and completely remove it from your local history.
 Once undone, verify that the commit is gone by using git log.
 Report Status:
+
+
 Extra Credit: What command(s) did you use to undo the commit, and why did you choose that particular method?
 Answer:
 Submission Instructions
@@ -115,3 +131,17 @@ When you have completed all assignments and answered all of the "Report Status" 
 A link to your public Digital-History-Notebook repository.
 A screenshot of your repository's commit history on GitHub. To find this, navigate to your repository, click the "commits" link near the top right, and take a screenshot of the page.
 Be sure to answer the questions above as well.
+
+
+Timeline: The Rise of the Internet
+* 1960s - ARPANET was the US Department of Defense version of the internet that the military used to communicate
+* 1970s - TCP/IP protocols were developed so networks could communicate clearly
+* 1980s - The internet went beyond military use. Businesses were starting to use networks like NSFNET
+* 1990 - Tim Berners-Lee invented the World Wide Web making the internet more accessible to the public
+* 1993 - Web Browsers started popping up and made it easy for anyone to just get online and find what they needed to find
+* Late 90s - Businesses rushing to get online in order to grow profits and have people buy from anywhere anytime
+* 2000s to now - Multiple different social media platforms, widespread internet use worldwide, and the internet being used everywhere everyday
+
+
+Final Thoughts:
+I kind of struggled to get through this. Reading this throught the markdown on the Github page is hard, but not impossible. At least I got through this.
